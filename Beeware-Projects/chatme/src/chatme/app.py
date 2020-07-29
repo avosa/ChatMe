@@ -47,7 +47,7 @@ class ChatMe(toga.App):
 
         self.main_window.info_dialog(
             'Hi there!',
-            "Welcome, {}".format(name)
+            "Welcome, {}!".format(name)
     )
 
 def main():
