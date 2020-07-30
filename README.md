@@ -1,7 +1,7 @@
 ## About ChatMe App
-Is an pplication built using Beeware, a Python framework for Android, iOS, Windows and Linux all using same code
+ChatMe App is an pplication built using Beeware, a Python framework
 
-BeeWare allows you to write your app in Python and release it on multiple platforms. No need to rewrite the app in multiple programming languages. It means no issues with build tools, environments, compatibility, etc.
+BeeWare allows you to write your app in Python and release it on multiple platforms(iOS, Windows, Linux, Android etc). No need to rewrite the app in multiple programming languages. It means no issues with build tools, environments, compatibility, etc.
 
 
 #### Getting Started
