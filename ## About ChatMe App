@@ -67,7 +67,7 @@ One of the BeeWare tools is Briefcase. Briefcase can be used to package your app
 #### Clone the repo
 Open a terminal, and type:
 ```text
-$ https://github.com/avosa/ChatMe.git
+$ git clone https://github.com/avosa/ChatMe.git
 $ cd ChatMe
 ```
 
