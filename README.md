@@ -8,7 +8,7 @@ BeeWare allows you to write your app in Python and release it on multiple platfo
 ###### Install Python3
 If you’re on Linux, you’ll install Python using the system package manager (apt on Debian/Ubuntu/Mint; dnf on Fedora, or pacman on Arch).
 
-For this project I used Ubuntu, a debian based distro which comes with inbuild Python3. If you are using a different OS then I'll refere you to follow [installation guidlines](https://realpython.com/installing-python/)
+For this project I used Ubuntu, a debian based distro which comes with inbuild Python3. If you are using a different OS then I'll refer you to follow [installation guidlines](https://realpython.com/installing-python/)
 
 ###### Install dependencies
 Next, install the additional dependencies needed for your operating system:
