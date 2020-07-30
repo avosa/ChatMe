@@ -18,7 +18,7 @@ For this case I'll install Ubuntu dependancies, which works for all Debian based
 ```text
 $ sudo apt-get update
 
-$ csudo apt-get install git python3-dev python3-venv libgirepository1.0-dev libcairo2-dev libpango1.0-dev libwebkitgtk-3.0-0 gir1.2-webkit-3.0
+$ sudo apt-get install git python3-dev python3-venv libgirepository1.0-dev libcairo2-dev libpango1.0-dev libwebkitgtk-3.0-0 gir1.2-webkit-3.0
 
 ```
 To get how to install these dependacies on different Os eg Windows, Mac and other Linux distros [check guidance](https://docs.beeware.org/en/latest/tutorial/tutorial-0.html/)
@@ -31,9 +31,15 @@ Official installers for [Docker Engine](https://docs.docker.com/engine/install/#
 $ docker run -it ubuntu:20.04
 ```
 
-This should show you a Unix prompt (something like root@84444e31cff9:/#) inside your Docker container. Type Ctrl-D to exit Docker and return to your local shell.
-
+This should show you a Unix prompt (something like 
+root@84444e31cff9:/#) inside your Docker container. Type 
+```text
+Ctrl-D
+``` 
+to exit Docker and return to your local shell.
+```text
 ###### Set up a virtual environment
+```
 
 We’re now going to create a virtual environment - a “sandbox” that we can use to isolate our work on this tutorial from our main Python installation. If we install packages into the virtual environment, our main Python installation (and any other Python projects on our computer) won’t be affected. If we make a complete mess of our virtual environment, we’ll be able to simply delete it and start again, without affecting any other Python project on our computer, and without the need to re-install Python.
 ```text
@@ -54,14 +60,14 @@ First, we need to install Briefcase. Briefcase is a BeeWare tool that can be use
 ```text
 $ python3 -m pip install briefcase
 ```
-For more OS, see [guidlines.](https://docs.beeware.org/en/latest/tutorial/tutorial-1.html) J
+For more OS, see [guidlines.](https://docs.beeware.org/en/latest/tutorial/tutorial-1.html) 
 
 One of the BeeWare tools is Briefcase. Briefcase can be used to package your application for distribution to end users - but it can also be used to bootstrap a new project.
 
 #### Clone the repo
 Open a terminal, and type:
 ```text
-$ https://github.com/avosa/ChatMe.git
+$ git clone https://github.com/avosa/ChatMe.git
 $ cd ChatMe
 ```
 
@@ -78,7 +84,7 @@ However, we don’t want to have to teach our users how to install Python, creat
 Briefcase can be used to package your application for distribution in this way.
 
 #### Creating your application scaffold
-Since this is the first time we’re packaging our application, we need to create some confguration files and other scaffolding to support the packaging process. From the (ChatMe) directory, run
+Since this is the first time we’re packaging our application, we need to create some confguration files and other scaffolding to support the packaging process. From the "ChatMe" directory, run
 
 ```text
 $ briefcase create
@@ -117,7 +123,9 @@ The process of deploying an application to Android is very similar to the proces
 ```text
 $ briefcase create android
 ```
-When you run ```text
+When you run 
+
+```text
 $ briefcase create android
 ```
 for the first time, Briefcase downloads a Java JDK, and the Android SDK. File sizes and download times can be considerable; this may take a while (10 minutes or longer, depending on the speed of your Internet connection). When the download has completed, you will be prompted to accept Google’s Android SDK license.
@@ -158,4 +166,4 @@ $ briefcase run android -d @beePhone
 to run on the virtual device directly.
 
 
-More information can be found on [Beeware Online Tutorial](hhttps://docs.beeware.org/en/latest/tutorial/tutorial-5/android.html)
+More information can be found on [Beeware Online Tutorial](https://docs.beeware.org/en/latest/tutorial/tutorial-5/android.html)
