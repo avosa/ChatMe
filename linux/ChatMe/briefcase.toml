@@ -1,0 +1,11 @@
+[paths]
+app_path = "ChatMe.AppDir/usr/app"
+app_packages_path = "ChatMe.AppDir/usr/app_packages"
+support_path = "ChatMe.AppDir/usr"
+icon.16 = "ChatMe.AppDir/usr/share/icons/hicolor/16x16/apps/chatme.png"
+icon.32 = "ChatMe.AppDir/usr/share/icons/hicolor/32x32/apps/chatme.png"
+icon.64 = "ChatMe.AppDir/usr/share/icons/hicolor/64x64/apps/chatme.png"
+icon.128 = "ChatMe.AppDir/usr/share/icons/hicolor/128x128/apps/chatme.png"
+icon.256 = "ChatMe.AppDir/usr/share/icons/hicolor/256x256/apps/chatme.png"
+icon.512 = "ChatMe.AppDir/usr/share/icons/hicolor/512x512/apps/chatme.png"
+# icon.scalable = "ChatMe.AppDir/usr/share/icons/hicolor/scalable/apps/chatme.png"

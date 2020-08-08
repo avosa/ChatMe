@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ChatMe
+Exec=com.example.chatme %F
+Icon=chatme
+Categories=Utility;
+Comment=My first application
+X-AppImage-Version=0.0.1

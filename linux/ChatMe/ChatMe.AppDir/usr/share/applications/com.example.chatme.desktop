@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ChatMe
+Exec=com.example.chatme %F
+Icon=chatme
+Categories=Utility;
+Comment=My first application
