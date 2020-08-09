@@ -1,5 +1,5 @@
 """
-My first application
+Android application version
 """
 import toga
 from toga.style import Pack
