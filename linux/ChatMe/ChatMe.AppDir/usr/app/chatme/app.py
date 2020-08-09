@@ -1,5 +1,5 @@
 """
-My first linux application
+My first OS linux application
 """
 import toga
 from toga.style import Pack
