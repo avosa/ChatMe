@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 # Set the working directory
 WORKDIR /app
 
-# Set up Docker build arguments
+# Setting up Docker build arguments
 ARG PY_VERSION
 ARG SYSTEM_REQUIRES
 
