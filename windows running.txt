@@ -1,0 +1,14 @@
+ 
+cd beeware
+py -m venv beeware-venv
+source ./beeware-venv/Scripts/activate
+python -m pip install briefcase
+
+cd chatme
+briefcase create
+briefcase build
+briefcase run
+briefcase package
+briefcase run -u
+briefcase create android
+briefcase build android
