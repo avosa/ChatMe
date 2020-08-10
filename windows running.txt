@@ -12,3 +12,4 @@ briefcase package
 briefcase run -u
 briefcase create android
 briefcase build android
+Briefcase run android 
